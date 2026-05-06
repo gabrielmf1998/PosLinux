@@ -14,7 +14,7 @@ pacotes conhecidos que quase todo mundo usa, como **Discord**, **Telegram**, **G
 
 ## Compatibilidade com outras Distros
 
-- Scripts escritos em bash puro, ou seja, vai funcionar em qualquer distro.
+- Script escrito em bash puro, ou seja, vai funcionar em qualquer distro.
 - Inicialmente iria funcionar somente em **Arch**, mas como alguns comandos são similares, resolvi criar functions
   para que se adapte a qualquer distro que seja executada e facilite a vida de usuário comum.
 - Nem todas as distros estão adicionadas, como NixOs, Void, Badrock, FreeBSD, entre muitas outras.
