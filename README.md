@@ -2,7 +2,7 @@
 
 ![Texto alternativo](https://i.ibb.co/xtKtc278/Screenshot-20260506-193513.png)
 
-Esse programa que fiz tem o objetivo de facilitar a vida de um usuário comum que acabou de sair do Windows e está perdido na sua primeira instalação Linux.
+Esse TUI fiz tem o objetivo de facilitar a vida de um usuário comum que acabou de sair do Windows e está perdido na sua primeira instalação Linux.
 O script tem a principal função de dar um ponto-de-partida para aqueles que tem muita dificuldade em mexer no Linux e tem medo do terminal.
 
 
