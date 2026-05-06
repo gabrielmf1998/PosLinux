@@ -17,7 +17,6 @@ O script tem a principal função de dar um ponto-de-partida para aqueles que te
   para que se adapte a qualquer distro que seja executada e facilite a vida de usuário comum.
 - Nem todas as distros estão adicionadas, como NixOs, Void, Badrock, FreeBSD, entre muitas outras.
 - Criei essa tabela de compatibilidade para você saber qual situação do Script em determinada distro.
-## Compatibilidade por Distro
 
 | Distro | Compatibilidade |
 |---|---:|
