@@ -8,7 +8,7 @@ O script tem a principal função de dar um ponto-de-partida para aqueles que te
 
 ### O que ele consegue fazer❓
 - De inicio ele em sua tela inicial puxa já bastante informação, já da uma noção muito boa
-de como está a situação atual do Linux, verifica situação da **GPU**, **Kernels**, qual **Distro** usada, e se tiver rede mostra **IPV4** e **IPV6**.
+de como está a situação atual do Linux, verifica situação da **GPU**, **Kernels**, qual **Distro** usada, e se tiver rede mostra **IPV4** e **IPV6 (fe80)**.
 - Fornece funções como trocar de **Kernel**, Instalar Drivers da **GPU**, Verifica **Secure-Boot**, **UEFI** e na sessão programas oferece instalação completa de vários
 pacotes conhecidos que quase todo mundo usa, como **Discord**, **Telegram**, **Google-Chrome**, **Steam**, OBS, VLC entre muitos outros.
 
