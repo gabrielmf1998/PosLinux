@@ -45,8 +45,41 @@ pacotes conhecidos que quase todo mundo usa, como **Discord**, **Telegram**, **G
 
 
 ## Como utilizar❓
-**Faça download do script em Releases, caso o arquivo vá para a pasta Downloads, execute:**  
+**Faça download do script em Releases, assim que o script estiver em sua máquina, execute:**  
    - **Qualquer Distro**: 🚀
      ```
      f="$(sudo find / -type f -name 'poslinux.sh' -print -quit 2>/dev/null)" && [ -n "$f" ] && sudo bash "$f"
      ```
+## O que esse comando faz❓
+```md
+<details>
+<summary>Entenda o comando de execução</summary>
+
+```bash
+f="$(sudo find / -type f -name 'poslinux.sh' -print -quit 2>/dev/null)" && [ -n "$f" ] && sudo bash "$f"
+```
+
+Esse comando procura no sistema inteiro um arquivo chamado `poslinux.sh` e, se encontrar, executa esse arquivo com `sudo bash`.
+
+| Parte | Função |
+|---|---|
+| `f="..."` | Cria uma variável chamada `f`. |
+| `$(...)` | Executa o comando dentro dos parênteses e salva a saída na variável. |
+| `sudo find /` | Procura a partir da raiz `/`, ou seja, no sistema inteiro. |
+| `-type f` | Filtra apenas arquivos comuns. |
+| `-name 'poslinux.sh'` | Procura pelo nome exato `poslinux.sh`. |
+| `-print` | Mostra o caminho encontrado. |
+| `-quit` | Para no primeiro resultado encontrado. |
+| `2>/dev/null` | Esconde mensagens de erro, como “Permissão negada”. |
+| `[ -n "$f" ]` | Verifica se a variável `f` não está vazia. |
+| `&&` | Executa a próxima parte somente se a anterior deu certo. |
+| `sudo bash "$f"` | Executa o script encontrado com Bash e permissões de administrador. |
+
+Resumo:
+
+```bash
+procura poslinux.sh no sistema inteiro -> salva o caminho -> se achou -> executa como root
+```
+
+</details>
+```
