@@ -50,14 +50,6 @@ pacotes conhecidos que quase todo mundo usa, como **Discord**, **Telegram**, **G
      ```
      f="$(sudo find / -type f -name 'poslinux.sh' -print -quit 2>/dev/null)" && [ -n "$f" ] && sudo bash "$f"
      ```
-```md
-<details>
-<summary>Entenda o comando de execução</summary>
-
-```bash
-f="$(sudo find / -type f -name 'poslinux.sh' -print -quit 2>/dev/null)" && [ -n "$f" ] && sudo bash "$f"
-```
-
 Esse comando procura no sistema inteiro um arquivo chamado `poslinux.sh` e, se encontrar, executa esse arquivo com `sudo bash`.
 
 | Parte | Função |
@@ -74,11 +66,3 @@ Esse comando procura no sistema inteiro um arquivo chamado `poslinux.sh` e, se e
 | `&&` | Executa a próxima parte somente se a anterior deu certo. |
 | `sudo bash "$f"` | Executa o script encontrado com Bash e permissões de administrador. |
 
-Resumo:
-
-```bash
-procura poslinux.sh no sistema inteiro -> salva o caminho -> se achou -> executa como root
-```
-
-</details>
-```
