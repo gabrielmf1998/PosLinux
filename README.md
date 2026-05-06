@@ -45,7 +45,7 @@ pacotes conhecidos que quase todo mundo usa, como **Discord**, **Telegram**, **G
 
 
 ## Como utilizar❓
-**Faça download do script em Releases, assim que o script estiver em sua máquina, execute:**  
+**Faça download do script .sh, assim que o script estiver em sua máquina, execute:**  
    - **Qualquer Distro**: 🚀
      ```
      f="$(sudo find / -type f -name 'poslinux.sh' -print -quit 2>/dev/null)" && [ -n "$f" ] && sudo bash "$f"
