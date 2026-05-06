@@ -50,7 +50,6 @@ pacotes conhecidos que quase todo mundo usa, como **Discord**, **Telegram**, **G
      ```
      f="$(sudo find / -type f -name 'poslinux.sh' -print -quit 2>/dev/null)" && [ -n "$f" ] && sudo bash "$f"
      ```
-## O que esse comando faz❓
 ```md
 <details>
 <summary>Entenda o comando de execução</summary>
