@@ -51,19 +51,4 @@ pacotes conhecidos que quase todo mundo usa, como **Discord**, **Telegram**, **G
      ```
      curl -fsSL https://raw.githubusercontent.com/gabrielmf1998/PosLinux/main/poslinux.sh | bash
      ```
-Esse comando procura no sistema inteiro um arquivo chamado `poslinux.sh` e, se encontrar, executa esse arquivo com `sudo bash`.
-
-| Parte | Função |
-|---|---|
-| `f="..."` | Cria uma variável chamada `f`. |
-| `$(...)` | Executa o comando dentro dos parênteses e salva a saída na variável. |
-| `sudo find /` | Procura a partir da raiz `/`, ou seja, no sistema inteiro. |
-| `-type f` | Filtra apenas arquivos comuns. |
-| `-name 'poslinux.sh'` | Procura pelo nome exato `poslinux.sh`. |
-| `-print` | Mostra o caminho encontrado. |
-| `-quit` | Para no primeiro resultado encontrado. |
-| `2>/dev/null` | Esconde mensagens de erro, como “Permissão negada”. |
-| `[ -n "$f" ]` | Verifica se a variável `f` não está vazia. |
-| `&&` | Executa a próxima parte somente se a anterior deu certo. |
-| `sudo bash "$f"` | Executa o script encontrado com Bash e permissões de administrador. |
 
