@@ -5,7 +5,7 @@ set -o pipefail
 # PosLinux é o lançador local e também o bootstrap online.
 # Quando executado via curl | bash, ele baixa o release .tar.gz,
 # extrai em /tmp e executa a cópia completa com a pasta poslinux.d/.
-POSLINUX_TARBALL_URL="${POSLINUX_TARBALL_URL:-https://github.com/SEU_USUARIO/SEU_REPO/releases/latest/download/poslinux.tar.gz}"
+POSLINUX_TARBALL_URL="${POSLINUX_TARBALL_URL:-https://github.com/gabrielmf1998/PosLinux/releases/latest/download/poslinux.tar.gz}"
 
 resolve_script_dir() {
     local source_path="${BASH_SOURCE[0]:-}"
