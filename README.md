@@ -23,24 +23,25 @@ pacotes conhecidos que quase todo mundo usa, como **Discord**, **Telegram**, **G
 | Distro | Compatibilidade |
 |---|---:|
 | Arch Linux | ✅ 100% |
-| CachyOS | ✅ 94% |
-| EndeavourOS | ✅ 93% |
-| Garuda Linux | 🟡 88% |
-| Manjaro | 🟡 88% |
-| Fedora | 🟡 85% |
-| Nobara | 🟡 86% |
-| Ubuntu | 🟡 82% |
-| Linux Mint | 🟡 80% |
-| Zorin OS | 🟡 78% |
-| Pop!_OS | 🟡 78% |
-| openSUSE Tumbleweed | 🟡 76% |
-| Debian | 🟡 74% |
-| openSUSE Leap | 🟡 72% |
-| Artix Linux | 🟡 72% |
-| KDE neon | 🟡 72% |
-| RHEL | 🔴 65% |
-| Rocky Linux | 🔴 64% |
-| AlmaLinux | 🔴 64% |
+| CachyOS | ✅ 97% |
+| EndeavourOS | ✅ 96% |
+| Garuda Linux | ✅ 92% |
+| Manjaro | ✅ 91% |
+| Nobara | ✅ 91% |
+| Fedora | ✅ 90% |
+| Ubuntu | 🟡 87% |
+| Linux Mint | 🟡 85% |
+| Pop!_OS | 🟡 84% |
+| Zorin OS | 🟡 84% |
+| openSUSE Tumbleweed | 🟡 84% |
+| Debian | 🟡 82% |
+| openSUSE Leap | 🟡 81% |
+| KDE neon | 🟡 80% |
+| Artix Linux | 🟡 78% |
+| RHEL | 🟡 73% |
+| Rocky Linux | 🟡 72% |
+| AlmaLinux | 🟡 72% |
+
 
 
 
