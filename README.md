@@ -2,7 +2,7 @@
 
 ![Texto alternativo](https://i.ibb.co/xtKtc278/Screenshot-20260506-193513.png)
 
-Com a migração massiva de usuários saindo do Windows e indo para o Linux, me senti na obrigação de desenvolver esse **TUI** ele tem o objetivo de facilitar a vida de um usuário comum que acabou de sair do Windows e está perdido na sua primeira instalação Linux.
+Com a migração massiva de usuários saindo do Windows e indo para o Linux, me senti na obrigação de desenvolver esse **TUI** com o objetivo de facilitar a vida de um usuário comum que acabou de sair do Windows e está perdido na sua primeira instalação Linux.
 O script tem a principal função de dar um ponto-de-partida para aqueles que tem muita dificuldade em mexer no Linux e tem medo do terminal.
 
 
