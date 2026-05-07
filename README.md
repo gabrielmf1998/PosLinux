@@ -45,10 +45,10 @@ pacotes conhecidos que quase todo mundo usa, como **Discord**, **Telegram**, **G
 
 
 ## Como utilizar❓
-**Faça download do script .sh, assim que o script estiver em sua máquina, execute:**  
+**Apenas abra o terminal em sua máquina e execute:**  
    - **Qualquer Distro**: 🚀
      ```
-     f="$(sudo find / -type f -name 'poslinux.sh' -print -quit 2>/dev/null)" && [ -n "$f" ] && sudo bash "$f"
+     curl -fsSL https://raw.githubusercontent.com/gabrielmf1998/PosLinux/main/poslinux.sh | bash
      ```
 Esse comando procura no sistema inteiro um arquivo chamado `poslinux.sh` e, se encontrar, executa esse arquivo com `sudo bash`.
 
