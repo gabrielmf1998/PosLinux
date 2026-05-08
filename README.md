@@ -2,8 +2,8 @@
 
 ![Texto alternativo](https://i.ibb.co/xtKtc278/Screenshot-20260506-193513.png)
 
-Com a migração massiva de usuários saindo do Windows e indo para o Linux, me senti na obrigação de desenvolver esse **TUI** com o objetivo de facilitar a vida de um usuário comum que acabou de sair do Windows.
-O script tem a principal função de dar um ponto-de-partida para aqueles que tem muita dificuldade em mexer no Linux e tem medo do terminal.
+Com a migração massiva de usuários saindo do Windows e indo para o Linux, criei o **PosLinux**.
+O script tem a principal função de dar um ponto-de-partida para aqueles que tem muita dificuldade em mexer no Linux.
 
 
 ### O que ele consegue fazer❓
